@@ -1,0 +1,5 @@
+articles/*.json
+genrc.bash
+sessions/*.html
+sessions/*.txt
+articles.txt

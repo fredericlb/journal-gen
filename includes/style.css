@@ -1,0 +1,46 @@
+.article {
+    columns: 2;
+}
+
+img {
+    max-width: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact;
+}
+
+p {
+    font-family: Palatino;
+    font-size: 9.5pt;
+    text-align: justify;
+}
+
+figure {
+    text-align: center;
+}
+
+.qrcode {
+    text-align: center;
+}
+
+.qrcode img {
+    display: inline-block !important;
+}
+
+.article-head {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+
+@media print {
+    .article {
+        page-break-after: always;
+    }
+}
